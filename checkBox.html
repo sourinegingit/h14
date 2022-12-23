@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="checkbox.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="tab">
+            <table id="table1" border="1">
+                <tr>
+                    <th>check</th>
+                    <th>language</th>
+                </tr>
+                <tr>
+                    <td>php</td>
+                    <td><input type="checkbox" name="check-tab1"></td>
+                </tr>
+                <tr>
+                    <td>css</td>
+                    <td><input type="checkbox" name="check-tab1"></td>
+                </tr>
+                <tr>
+                    <td>ruby</td>
+                    <td><input type="checkbox" name="check-tab1"></td>
+                </tr>
+                <tr>
+                    <td>java</td>
+                    <td><input type="checkbox" name="check-tab1"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="tab tab-btn">
+            <button onclick="tab1_To_tab2();"> >>></button>
+            <button onclick="tab2_To_tab1();">
+                <<<< </button>
+        </div>
+        <div class="tab">
+            <table id="table2" border="1">
+                <tr>
+                    <th>check</th>
+                    <th>language</th>
+                </tr>
+                <tr>
+
+                    <td>python</td>
+                    <td><input type="checkbox" name="check-tab2"></td>
+                </tr>
+                <tr>
+                    <td>jango</td>
+                    <td><input type="checkbox" name="check-tab2"></td>
+                </tr>
+                <tr>
+                    <td>c#</td>
+                    <td><input type="checkbox" name="check-tab2"></td>
+                </tr>
+                <tr>
+                    <td>html</td>
+                    <td><input type="checkbox" name="check-tab2"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="checkBox.js"></script>
+</body>
+
+</html>
